@@ -2,7 +2,6 @@
 reproducing by tensorflow1.14
 
 ```
-grads = tf.gradients(loss, params)
 grads_and_vars = optimizer.compute_gradients(loss)
 grads_GC_and_vars = []
 #GC operation for Conv layers and FC layers
